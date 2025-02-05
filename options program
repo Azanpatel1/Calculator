@@ -1,3 +1,11 @@
+Create a program that using yahoo finances data to 
+minimize this function (E*t-p/100)/(t-p/100). Where E is 
+the break even price of a call option, t is the stock 
+price and p is the premium for 1 out of the 100 call options. 
+Make it so the program imports checks all the available 
+options trades for a given stock ticker symbol and picks the 
+options trade whose values minimize the given formula. 
+
 import yfinance as yf
 import pandas as pd
 
